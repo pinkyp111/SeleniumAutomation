@@ -40,7 +40,7 @@ public class assignment6 {
 		
 		// button 3 - dismiss
 		scanner.findElement(By.id("confirmButton")).click();
-	    System.out.println("clicked button 3-dismiss");
+	        System.out.println("clicked button 3-dismiss");
 		Thread.sleep(3000);
 		scanner.switchTo().alert().dismiss();
 		System.out.println("Got Text:"+scanner.findElement(By.id("confirmResult")).getText());
