@@ -1,4 +1,4 @@
-package webdriver;
+package assignment;
 
 import java.util.Iterator;
 
@@ -11,7 +11,7 @@ public class assigment7b {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\eclipse workspace\\seleniumautomation\\browserdrivers\\chromedriver.exe");
+				"C:\\Users\\franc\\git\\SeleniumAutomation\\seleniumautomation\\browserdrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demoqa.com/browser-windows");
 		driver.manage().window().maximize();

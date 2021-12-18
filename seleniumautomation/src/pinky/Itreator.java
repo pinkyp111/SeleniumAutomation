@@ -1,4 +1,4 @@
-package webdriver;
+package pinky;
 
 public class Itreator<T> {
 

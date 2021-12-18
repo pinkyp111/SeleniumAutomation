@@ -1,4 +1,4 @@
-package webdriver;
+package assignment;
 
 import java.util.ArrayList;
 
@@ -13,7 +13,7 @@ public class assignment8b {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\eclipse workspace\\seleniumautomation\\browserdrivers\\chromedriver.exe");
+				"C:\\Users\\franc\\git\\SeleniumAutomation\\seleniumautomation\\browserdrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.toyota.co.uk/");
 		// String parentWindow=driver.getWindowHandle();

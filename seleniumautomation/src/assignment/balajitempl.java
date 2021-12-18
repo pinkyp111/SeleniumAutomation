@@ -1,4 +1,4 @@
-package webdriver;
+package assignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +11,7 @@ public class balajitempl {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\eclipse workspace\\seleniumautomation\\browserdrivers\\chromedriver.exe");
+				"C:\\Users\\franc\\git\\SeleniumAutomation\\seleniumautomation\\browserdrivers\\chromedriver.exe");
 
 		RemoteWebDriver scanner = new ChromeDriver();
 		// 1.Open the webpage using chrome.

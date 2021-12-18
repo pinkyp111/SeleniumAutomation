@@ -1,4 +1,4 @@
-package webdriver;
+package assignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ public class assignment9 {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\eclipse workspace\\seleniumautomation\\browserdrivers\\chromedriver.exe");
+				"C:\\Users\\franc\\git\\SeleniumAutomation\\seleniumautomation\\browserdrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://forms.toyota.co.uk/brochure");
 		driver.manage().window().maximize();

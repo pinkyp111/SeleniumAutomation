@@ -1,4 +1,4 @@
-package webdriver;
+package assignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ public class assignment4 {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","C:\\eclipse workspace\\seleniumautomation\\browserdrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\franc\\git\\SeleniumAutomation\\seleniumautomation\\browserdrivers\\chromedriver.exe");
 		WebDriver scanner=new ChromeDriver();
 		scanner.get("https://www.justrechargeit.com/");
 		scanner.manage().window().maximize();	

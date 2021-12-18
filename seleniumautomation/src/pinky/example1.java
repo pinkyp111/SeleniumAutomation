@@ -1,4 +1,4 @@
-package webdriver;
+package pinky;
 
 import org.openqa.selenium.By;
 //import org.openqa.selenium.WebDriver;
@@ -11,7 +11,7 @@ public class example1 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\eclipse workspace\\seleniumautomation\\browserdrivers\\chromedriver.exe");
+				"C:\\Users\\franc\\git\\SeleniumAutomation\\seleniumautomation\\browserdrivers\\chromedriver.exe");
 
 		RemoteWebDriver scanner = new ChromeDriver();
 		scanner.get("http://www.facebook.com");

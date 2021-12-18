@@ -1,4 +1,4 @@
-package webdriver;
+package pinky;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,7 @@ public class FBLogin {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\eclipse workspace\\seleniumautomation\\browserdrivers\\chromedriver.exe");// TO OPEN CHROME DRIVER and open the webpage.
+				"C:\\Users\\franc\\git\\SeleniumAutomation\\seleniumautomation\\browserdrivers\\chromedriver.exe");// TO OPEN CHROME DRIVER and open the webpage.
 		RemoteWebDriver driver = new ChromeDriver();
 
 		// 1.Open the page
