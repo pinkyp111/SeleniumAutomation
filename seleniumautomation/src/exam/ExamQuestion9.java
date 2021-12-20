@@ -55,7 +55,7 @@ public class ExamQuestion9 {
 				System.out.println("Invalid choice selected. Please enter 1,2,3,4\n");
 				break;
 			}
-			sc.close();
 		}
+
 	}
 }
